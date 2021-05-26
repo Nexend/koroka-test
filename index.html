@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Catalog</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a class="header__logo" href="#">Logo</a>
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Free test</a>
+            </li>
+            <li class="menu__item menu__item_active">
+              <a class="menu__link" href="#">Catalog</a>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="#">Help</a></li>
+          </ul>
+          <div class="menu-profile">
+            <a class="menu-profile__name" href="registration.html"
+              >Michael Browk</a
+            >
+            <a class="menu-profile__avatar" href="registration.html"
+              ><img src="images/profile-avatar.png" alt="avatar"
+            /></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="catalog">
+      <div class="container">
+        <h1 class="catalog__title">Course catalog</h1>
+        <p class="catalog__description">
+          Each course contains video lectures, tasks, and text materials. All
+          courses viewed by you are displayed in your personal account
+        </p>
+        <div class="catalog-search">
+          <input
+            class="catalog-search__field"
+            type="text"
+            placeholder="Search"
+          />
+          <div class="catalog-search__box">
+            <input class="catalog-search__country" type="text" value="USA" />
+            <button class="catalog-search__btn-close">
+              <img src="images/close-icon.svg" alt="close icon" />
+            </button>
+            <button class="catalog-search__btn-arrow">
+              <img src="images/arrow-down.svg" alt="close icon" />
+            </button>
+          </div>
+        </div>
+        <div class="catalog-items">
+          <div class="catalog-items__item">
+            <div class="catalog-items__top">
+              <span class="catalog-items__top-progress">Progress 12%</span>
+              <img
+                class="catalog-items__top-image"
+                src="images/item-bg-1.png"
+                alt="item-icon"
+              />
+              <div class="catalog-items__user">
+                <img
+                  src="images/user-avatar-1.png"
+                  alt="avatar"
+                  class="catalog-items__user-avatar"
+                />
+                <span class="catalog-items__user-name">Alexa</span>
+              </div>
+            </div>
+            <div class="catalog-items__content">
+              <p class="catalog-items__description">
+                Take exam in Mathematics at 100 points
+              </p>
+              <div class="catalog-items__info">
+                <img
+                  class="catalog-items__info-image"
+                  src="images/lesson-icon.svg"
+                  alt="lesson icon"
+                />
+                <span class="catalog-items__info-text">12 lessons</span>
+                <img
+                  class="catalog-items__info-image"
+                  src="images/task-icon.svg"
+                  alt="task icon"
+                />
+                <span class="catalog-items__info-text">12 tasks</span>
+                <img
+                  class="catalog-items__info-image"
+                  src="images/youtube-icon.svg"
+                  alt="youtube icon"
+                />
+                <span class="catalog-items__info-text">30 minutes</span>
+              </div>
+              <div class="catalog-items__buttons">
+                <button class="catalog-items__buttons-continue">
+                  Continue
+                </button>
+                <button class="catalog-items__buttons-more">More</button>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-items__item">
+            <div class="catalog-items__top">
+              <span class="catalog-items__top-progress">Progress 12%</span>
+
+              <img
+                class="catalog-items__top-image"
+                src="images/item-bg-2.png"
+                alt="item-icon"
+              />
+              <div class="catalog-items__user">
+                <img
+                  src="images/user-avatar-2.png"
+                  alt="avatar"
+                  class="catalog-items__user-avatar"
+                />
+                <span class="catalog-items__user-name">Kathryn Nguyen</span>
+              </div>
+            </div>
+            <div class="catalog-items__content">
+              <p class="catalog-items__description">
+                How buy new clothes without money in USA
+              </p>
+              <div class="catalog-items__info">
+                <img
+                  class="catalog-items__info-image"
+                  src="images/lesson-icon.svg"
+                  alt="lesson icon"
+                />
+                <span class="catalog-items__info-text">12 lessons</span>
+                <img
+                  class="catalog-items__info-image"
+                  src="images/task-icon.svg"
+                  alt="task icon"
+                />
+                <span class="catalog-items__info-text">12 tasks</span>
+                <img
+                  class="catalog-items__info-image"
+                  src="images/youtube-icon.svg"
+                  alt="youtube icon"
+                />
+                <span class="catalog-items__info-text">30 minutes</span>
+              </div>
+              <div class="catalog-items__buttons">
+                <button class="catalog-items__buttons-continue">
+                  Continue
+                </button>
+                <button class="catalog-items__buttons-more">More</button>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-items__item">
+            <div class="catalog-items__top">
+              <span class="catalog-items__top-progress">Progress 12%</span>
+
+              <img
+                class="catalog-items__top-image"
+                src="images/item-bg-3.png"
+                alt="item-icon"
+              />
+              <div class="catalog-items__user">
+                <img
+                  src="images/user-avatar-3.png"
+                  alt="avatar"
+                  class="catalog-items__user-avatar"
+                />
+                <span class="catalog-items__user-name">Diane Miles</span>
+              </div>
+            </div>
+            <div class="catalog-items__content">
+              <p class="catalog-items__description">Why people hate me?</p>
+              <div class="catalog-items__info">
+                <img
+                  class="catalog-items__info-image"
+                  src="images/lesson-icon.svg"
+                  alt="lesson icon"
+                />
+                <span class="catalog-items__info-text">12 lessons</span>
+                <img
+                  class="catalog-items__info-image"
+                  src="images/task-icon.svg"
+                  alt="task icon"
+                />
+                <span class="catalog-items__info-text">12 tasks</span>
+                <img
+                  class="catalog-items__info-image"
+                  src="images/youtube-icon.svg"
+                  alt="youtube icon"
+                />
+                <span class="catalog-items__info-text">30 minutes</span>
+              </div>
+              <div class="catalog-items__buttons">
+                <button class="catalog-items__buttons-continue">
+                  Continue
+                </button>
+                <button class="catalog-items__buttons-more">More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
